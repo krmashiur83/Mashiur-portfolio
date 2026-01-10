@@ -1,0 +1,39 @@
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;}
+
+/* shared style  */
+
+.font-open-scans {
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo {
+font-size: 30px;
+}
+.color-orange {
+    color:orange;
+    font-weight: 900;
+}
+
+/* body{background-color: aquamarine;} */
+/* main style  */
+header{
+    background-color: #dd945f;
+    padding-top: 50px;
+    
+}
+nav{ 
+    width:71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .manue {
+    display: flex;
+    gap: 51px;
+    list-style: none;
+}
