@@ -9,18 +9,31 @@
      font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-.logo {
-font-size: 30px;
+.logo h2 {
+font-size: 45px;
 }
 .color-orange {
     color:orange;
     font-weight: 900;
 }
+.btn{
+    font-size:20px; font-weight: bold;
+    color: #Ffffff;
+    border:none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    cursor: pointer;
+    padding: 18px 35px;
+}
+.btn:hover{
+    background-color:greenyellow;
+    transition-duration: .5s;
+}
 
 /* body{background-color: aquamarine;} */
 /* main style  */
 header{
-    background-color: #dd945f;
+    background-color: #fff8f3;
     padding-top: 50px;
     
 }
@@ -36,4 +49,9 @@ nav .manue {
     display: flex;
     gap: 51px;
     list-style: none;
+    align-items: center;
+}
+nav li{
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
 }
