@@ -10,7 +10,18 @@
   font-optical-sizing: auto;
 }
 .logo h2 {
-font-size: 45px;
+font-size: 45px; font-weight: 600;
+color: #474747;margin-bottom: 5px;
+}
+.logo h1{
+    font-size: 85px;
+    color: #181818 ;
+    font-weight: bold;margin-bottom: 20px;
+}
+.logo p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;margin-bottom: 30px;
 }
 .color-orange {
     color:orange;
@@ -23,18 +34,41 @@ font-size: 45px;
     border-radius: 5px;
     background-color: #FD6E0A;
     cursor: pointer;
-    padding: 18px 35px;
+    padding: 18px 20px;
+    line-height: 20px; margin-top: 30px;
 }
 .btn:hover{
     background-color:greenyellow;
     transition-duration: .5s;
 }
+button{
+    font-size: 20px;font-weight: bold;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A; text-align: center;
+    padding:18px 20px; border-radius: 10px;margin-top: 30px;
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff8f3;
+}
+
+    
+    
+
+
+   
+#banner.banner-img {max-width: 585px;
+vertical-align:}
 
 /* body{background-color: aquamarine;} */
 /* main style  */
 header{
     background-color: #fff8f3;
     padding-top: 50px;
+   
     
 }
 nav{ 
@@ -54,4 +88,20 @@ nav .manue {
 nav li{
     font-size: 20px;
     color: rgba(71, 71, 71, 1);
+}
+
+#banner {
+    
+    width: %;max-width: ;
+    margin: 47px 38px 0 230px; 
+}
+
+#container{max-width: 585px; 
+
+}
+main{
+     background: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-color:#fff8f3;
 }
